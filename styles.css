@@ -1,0 +1,100 @@
+body{
+    background-color:wheat;
+}
+
+.header{
+background-image:url("imagesOf/download\ \(1\).jfif");
+background-repeat:no-repeat;
+background-position: 100%;
+background-attachment: fixed;
+background-size: cover;
+margin: auto;
+justify-content: space-evenly;
+align-items: center;
+padding: 2em;
+margin: 3em;
+
+}
+
+.title{
+background-color: pink;
+padding: 2em;
+margin: 3em;
+}
+h4{
+    font-size: 25px;
+}
+
+.languages{
+    background-color: grey;
+    padding: 2em;
+    margin: 3em;
+}
+h5{
+
+    font-size: 25px;
+}
+
+ table{
+    border-collapse: collapse;
+    height: 70%;
+    width: 70%;
+    font-size: 2em;
+    background-color: pink;
+}
+table td{
+    border: 1px solid;
+    padding: 4px 8px;
+}
+h6{
+    padding-left: 3em;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subjects{
+    background-color: pink;
+    padding: 2em;
+    margin: 3em;
+}
+ .box{
+    margin: 2em;
+    padding: 2em;
+    border: 3px;
+    
+ }
+@media (min-width: 1000px) {
+    .header{
+        display: flex;
+    }
+}
+.modules{
+justify-content: space-evenly;
+}
+
+footer{
+    background-color: grey;
+}
+
+.full {
+    background-color: antiquewhite;
+}
+.business{
+    background-color: grey;
+}
+
+.tech{
+background-color: antiquewhite;
+}
+
+@media (min-width: 1400px){
+    .modules{
+        display:flex 
+}
+}
+
+@media (min-width: 1400px){
+    .city{
+        display:flex 
+}
+}
